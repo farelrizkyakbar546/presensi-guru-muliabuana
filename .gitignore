@@ -1,0 +1,30 @@
+# Local editor / system
+.vscode/
+.idea/
+*.log
+*.tmp
+*.temp
+*.cache
+.DS_Store
+Thumbs.db
+
+# Local password utility
+generate-password.php
+
+# Local uploaded files
+uploads/*
+assets/uploads/*
+
+# Keep upload folders
+!uploads/.gitkeep
+!assets/uploads/.gitkeep
+
+# Database dumps
+*.sql
+*.sql.gz
+*.dump
+!database/absensi_pkm.sql
+
+# Local server logs
+php_errorlog
+error_log

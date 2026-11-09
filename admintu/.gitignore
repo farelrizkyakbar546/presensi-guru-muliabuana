@@ -1,0 +1,43 @@
+# ==========================================
+# LOCAL / SYSTEM
+# ==========================================
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# PHP / SERVER TEMPORARY FILES
+# ==========================================
+*.tmp
+*.temp
+*.cache
+
+# ==========================================
+# GENERATED / LOCAL PASSWORD UTILITY
+# ==========================================
+generate-password.php
+
+# ==========================================
+# UPLOADED FILES — LOCAL DATA
+# ==========================================
+uploads/*
+assets/uploads/*
+
+# Keep upload folders themselves
+!uploads/.gitkeep
+!assets/uploads/.gitkeep
+
+# ==========================================
+# DATABASE / LOCAL EXPORTS
+# ==========================================
+*.sql
+*.sql.gz
+*.dump
+
+# ==========================================
+# XAMPP / LOCAL ENVIRONMENT
+# ==========================================
+php_errorlog
+error_log
